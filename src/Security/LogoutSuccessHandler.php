@@ -12,5 +12,4 @@ class LogoutSuccessHandler implements LogoutSuccessHandlerInterface
   {
     return new JsonResponse(["succes" => true]);
   }
-
 }
