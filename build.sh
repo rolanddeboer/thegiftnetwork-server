@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/thegiftnetwork/www
+cd /var/www/thegiftnetwork.org/www
 
 # renew symfony files
 git pull origin master
