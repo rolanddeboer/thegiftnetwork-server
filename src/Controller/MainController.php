@@ -10,7 +10,7 @@ class MainController extends AbstractController
     /**
      * @Route("/main", name="main")
      */
-    public function index()
+    public function index(Request $request)
     {
         return $this->render('angular.html.twig');
     }
