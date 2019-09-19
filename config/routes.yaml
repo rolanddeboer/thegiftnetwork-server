@@ -6,8 +6,7 @@ index:
    controller: App\Controller\MainController::index
 
 catchall:
-   path: 
-      /{req}
+   path: /{req}
    defaults: { _controller: App\Controller\MainController::root }
    requirements:
-      req: ".+"
+      req: .*
