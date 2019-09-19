@@ -23,3 +23,5 @@ find var/log -type f -exec chmod 660 {} +
 
 # run server specific composer install script
 ./composer-install.sh
+
+sudo systemctl restart httpd php-fpm
